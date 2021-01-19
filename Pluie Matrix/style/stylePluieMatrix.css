@@ -1,0 +1,54 @@
+body {
+	padding:0px;
+	margin:0px;
+	width:100%;
+	background-color:black;
+	overflow:hidden;
+}
+
+/***********************************************************************/
+#matrix {
+position:relative;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+width:100%;
+height:100%;
+}
+.goutte {
+	position:absolute;
+	color:white;
+	font-weight:bold;
+	text-shadow:5px 5px 10px;
+	word-wrap:break-word;
+	width:5px;
+	line-height:1;
+}
+.goutteGrise, .goutteBlanche, .goutteVerte, .goutte25, .goutte50{
+	font-size:0.9em;
+}
+.goutteVerte, .goutte25, .goutte50 {
+	color:#04da0d;
+}
+.goutteGrise {
+	color:#5e8660;
+}
+.goutte25 {
+	opacity:0.25;
+}
+.goutte50 {
+	opacity:0.5;
+}
+.goutteBlanche {
+		font-weight:bolder;
+}
+/***********************************************************************/
+@keyframes travelMatrix {
+	0%{transform:  translateY(0px);}
+	100% {transform: translateY(1500px);}
+}
+@keyframes outMatrix {
+	0%{opacity:1;}
+	100% {opacity:0;}
+}
