@@ -6,3 +6,5 @@ La pluie est générée sur l'utilisation du DOM en inséréant et détruisant d
 Jouez avec le Css pour modifier tailles et couleurs. Positions de départs et d'arrivée sont implémentées dans le code javascript.
 
 Vous pouvez modifier la fréquence de renouvellement des itérations, la vitesse de chute et le nombre de "gouttes" dans le code javascript. 
+
+Plus de détails sur https://www.artofnetwork.fr
