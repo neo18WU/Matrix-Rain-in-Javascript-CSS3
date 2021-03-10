@@ -1,4 +1,4 @@
-// code créé par Alain Thomassigny - Janvier 2021 - 
+// code créé par Alain Thomassigny - Janvier 2021 - www.artofnetwork.fr
 
 var divMatrix = document.getElementById("matrix");
 
